@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="todo.css" />
+  </head>
+  <body>
+    <div class="all">
+      <div class="container">
+        <header>
+          <h1>TODO</h1>
+        </header>
+        <form>
+          <label class="label" style="display: block">Task to do:</label>
+          <input class="task" type="text" style="display: block" />
+          <p class="error0"></p>
+          <div class="time">
+            <label class="label" style="display: block">start:</label>
+            <input class="stime" type="time" style="display: block" />
+
+            <label class="label" style="display: block">finish:</label>
+            <input class="ftime" type="time" style="display: block" />
+          </div>
+          <p class="error1"></p>
+          <br />
+          <input class="submit" type="submit" />
+        </form>
+      </div>
+      <div class="written-tasks"></div>
+    </div>
+    <script src="todo.js"></script>
+  </body>
+</html>
